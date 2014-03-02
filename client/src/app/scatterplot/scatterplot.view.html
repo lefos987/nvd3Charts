@@ -1,0 +1,19 @@
+<div ng-controller="ScatterCtrl">
+	<nvd3-scatter-chart
+		data="exampleData"
+		height= "600"
+    interactive="true"
+    tooltips="true"
+		margin="{left:150,top:50,bottom:50,right:150}"
+		showDistY="true"
+		showDistX="true"
+	 	xaxislabel="Affinity"
+	 	yaxislabel="Impact"
+	 	forcex="[-4,4]"
+	 	xaxisshowmaxmin="false"
+	 	yaxisshowmaxmin="false"
+	 	showlegend="true"
+		id="exampleId">
+		<svg></svg>
+	</nvd3-scatter-chart>
+</div>

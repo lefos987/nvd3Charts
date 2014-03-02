@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<title>nvd3_client</title>
+		<base href="/">
+		<link rel="stylesheet" type="text/css" href="app.css" media="screen, projector, print">
+		<script src="vendor/foundation/js/vendor/modernizr.js"></script>
+	</head>
+
+	<body>
+		
+		<ul class="no-bullet inline-list">
+			<li>
+				<a href="/">Scatter Plot</a>
+			</li>
+			<li>
+				<a href="/pie">Pie</a>
+			</li>
+			<li>
+				<a href="/stackedChart">Stacked Chart</a>
+			</li>
+			<li>
+				<a href="/bar">Bar Chart</a>
+			</li>
+		</ul>
+		<!-- ng-view for main content -->
+		<div class="row wrapper" ng-view=""></div>
+		
+
+		<!-------------------------------- Scripts --------------------------------------------->
+
+		<!----------------------------  Vendor Scripts  ---------------------------------------->
+		<script type="text/javascript" src="vendor/angular/angular.min.js"></script>
+		<script type="text/javascript" src="vendor/angular-route/angular-route.min.js"></script>
+		<script type="text/javascript" src="vendor/d3/d3.min.js"></script>
+		<script type="text/javascript" src="vendor/nvd3/nv.d3.min.js"></script>
+		<script type="text/javascript" src="vendor/angularjs-nvd3-directives/dist/angularjs-nvd3-directives.js"></script>
+
+		<!----------------------------  Application Script  ------------------------------------>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>

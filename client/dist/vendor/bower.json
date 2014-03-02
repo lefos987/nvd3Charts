@@ -1,0 +1,15 @@
+{
+  "name": "nvd3_client",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "foundation": "latest",
+    "d3": "~3.4.3",
+    "nvd3": "~1.1.15-beta",
+    "angularjs-nvd3-directives": "~0.0.5-beta"
+  },
+  "devDependencies": {
+    "angular-mocks": "latest"
+  }
+}
